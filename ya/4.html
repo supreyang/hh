@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .ya{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img class="ya" id="app" src="img/1.jpg">
+        <br>
+        <button onclick="one()" >1</button>
+        <button onclick="two()" >2</button>
+        <button onclick="there()" >3</button>
+        <button onclick="four()" >4</button>
+    </div>
+    <script>
+        function one(){
+            document.getElementById('app').src='img/2.jpg'
+        }
+        function two(){
+            document.getElementById('app').src='img/3.jpg'
+        }
+        function there(){
+            document.getElementById('app').src='img/4.jpg'
+        }
+        function four(){
+            document.getElementById('app').src='img/1.jpg'
+        }
+    </script>
+</body>
+</html>
